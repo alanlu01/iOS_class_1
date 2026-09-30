@@ -1,0 +1,43 @@
+name: PocketGarden
+options:
+  minimumXcodeGenVersion: 2.46.0
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "27.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    DEVELOPMENT_TEAM: ""
+targets:
+  PocketGarden:
+    type: application
+    platform: iOS
+    sources:
+      - path: PocketGarden
+        excludes:
+          - Info.plist
+          - Resources/DMSerifDisplay-OFL.txt
+          - Resources/ASSET_CREDITS.md
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.alanlu01.PocketGarden
+        PRODUCT_NAME: PocketGarden
+        INFOPLIST_FILE: PocketGarden/Info.plist
+        GENERATE_INFOPLIST_FILE: "NO"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MACCATALYST: "NO"
+        SWIFT_EMIT_LOC_STRINGS: "YES"
+    scheme:
+      testTargets:
+        - PocketGardenUITests
+  PocketGardenUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: PocketGardenUITests
+    dependencies:
+      - target: PocketGarden
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.alanlu01.PocketGardenUITests

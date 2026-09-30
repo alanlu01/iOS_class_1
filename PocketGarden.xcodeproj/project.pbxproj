@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137D7547469E5538C952DDEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771B48906F4D57280D5D6EE /* ContentView.swift */; };
+		2FA4B4CC44B2DF28AAE2C082 /* GardenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB58D9ECE6108EE29F259F /* GardenData.swift */; };
+		584246397839DD4739C5D892 /* PocketGardenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAAB2F6A3D829CC25E15C8A /* PocketGardenUITests.swift */; };
+		869D16286C4A04738BA6D8DE /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA66A7AB11EB1D2C468D8A /* JournalView.swift */; };
+		8BC865829E87EC723B0FC87C /* GardenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2BEBD309C293D9CB1E243F /* GardenView.swift */; };
+		CA5A4B4A999BC966A6898AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240645BF35EF74394BDE8788 /* Assets.xcassets */; };
+		D06CFD697AAD16323B623E5A /* PocketGardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F7BF539D081FC9026A58F5 /* PocketGardenApp.swift */; };
+		D2CE2CC146FC95ED079CE702 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF09E333AFF77603AD81BE2 /* DesignSystem.swift */; };
+		DC3DAE19DB31CC30C1A7A1A6 /* PlantLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E4A4632F6ACF00EF8F1DC /* PlantLibraryView.swift */; };
+		F4AD6484C8B245B074D08A31 /* DMSerifDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F89C0588AFBCE27391196D53 /* DMSerifDisplay-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FFA53BF6D050D5AD0F9D404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C2AAEE525B747B4BA4E01C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40A1CB91257519B9F0B8A95;
+			remoteInfo = PocketGarden;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F7BF539D081FC9026A58F5 /* PocketGardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketGardenApp.swift; sourceTree = "<group>"; };
+		240645BF35EF74394BDE8788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2771B48906F4D57280D5D6EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30AB58D9ECE6108EE29F259F /* GardenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenData.swift; sourceTree = "<group>"; };
+		47062C1FCC81EFDF9A2FC775 /* PocketGarden.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PocketGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485FAA611BB9B021DB1BC91D /* PocketGardenUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PocketGardenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		599E4A4632F6ACF00EF8F1DC /* PlantLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantLibraryView.swift; sourceTree = "<group>"; };
+		5F2BEBD309C293D9CB1E243F /* GardenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenView.swift; sourceTree = "<group>"; };
+		AAF09E333AFF77603AD81BE2 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		BAAA66A7AB11EB1D2C468D8A /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		CFAAB2F6A3D829CC25E15C8A /* PocketGardenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketGardenUITests.swift; sourceTree = "<group>"; };
+		F89C0588AFBCE27391196D53 /* DMSerifDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSerifDisplay-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		29D1730987EA373D6753278C /* PocketGardenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAAB2F6A3D829CC25E15C8A /* PocketGardenUITests.swift */,
+			);
+			path = PocketGardenUITests;
+			sourceTree = "<group>";
+		};
+		6A378FA157E5AA2D6845BCE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47062C1FCC81EFDF9A2FC775 /* PocketGarden.app */,
+				485FAA611BB9B021DB1BC91D /* PocketGardenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D2CECA15EEC4C781FBF2F9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F2BEBD309C293D9CB1E243F /* GardenView.swift */,
+				BAAA66A7AB11EB1D2C468D8A /* JournalView.swift */,
+				599E4A4632F6ACF00EF8F1DC /* PlantLibraryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B78FC1C80490A1CD6CF5544B = {
+			isa = PBXGroup;
+			children = (
+				F170AC45656474BC78D6CABD /* PocketGarden */,
+				29D1730987EA373D6753278C /* PocketGardenUITests */,
+				6A378FA157E5AA2D6845BCE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5CBC41D415555CA0E089C4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F89C0588AFBCE27391196D53 /* DMSerifDisplay-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F170AC45656474BC78D6CABD /* PocketGarden */ = {
+			isa = PBXGroup;
+			children = (
+				240645BF35EF74394BDE8788 /* Assets.xcassets */,
+				2771B48906F4D57280D5D6EE /* ContentView.swift */,
+				AAF09E333AFF77603AD81BE2 /* DesignSystem.swift */,
+				30AB58D9ECE6108EE29F259F /* GardenData.swift */,
+				09F7BF539D081FC9026A58F5 /* PocketGardenApp.swift */,
+				E5CBC41D415555CA0E089C4D /* Resources */,
+				6D2CECA15EEC4C781FBF2F9F /* Views */,
+			);
+			path = PocketGarden;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74D789902DA16879002E776D /* PocketGardenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B2ECA5B01AF05E29C38348E /* Build configuration list for PBXNativeTarget "PocketGardenUITests" */;
+			buildPhases = (
+				8414539F9365BA535C873EE5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF5BBDD1C6E2723467C05F6F /* PBXTargetDependency */,
+			);
+			name = PocketGardenUITests;
+			packageProductDependencies = (
+			);
+			productName = PocketGardenUITests;
+			productReference = 485FAA611BB9B021DB1BC91D /* PocketGardenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F40A1CB91257519B9F0B8A95 /* PocketGarden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB3CFC28F31F0409E61E124 /* Build configuration list for PBXNativeTarget "PocketGarden" */;
+			buildPhases = (
+				BAE8D2A9BEC13BEDB92348BD /* Sources */,
+				8DEA4BB2604A001C554F0ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketGarden;
+			packageProductDependencies = (
+			);
+			productName = PocketGarden;
+			productReference = 47062C1FCC81EFDF9A2FC775 /* PocketGarden.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C2AAEE525B747B4BA4E01C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					74D789902DA16879002E776D = {
+						DevelopmentTeam = "";
+						TestTargetID = F40A1CB91257519B9F0B8A95;
+					};
+					F40A1CB91257519B9F0B8A95 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = D2181305156BADFF02C6A329 /* Build configuration list for PBXProject "PocketGarden" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B78FC1C80490A1CD6CF5544B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6A378FA157E5AA2D6845BCE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40A1CB91257519B9F0B8A95 /* PocketGarden */,
+				74D789902DA16879002E776D /* PocketGardenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DEA4BB2604A001C554F0ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5A4B4A999BC966A6898AC0 /* Assets.xcassets in Resources */,
+				F4AD6484C8B245B074D08A31 /* DMSerifDisplay-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8414539F9365BA535C873EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584246397839DD4739C5D892 /* PocketGardenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE8D2A9BEC13BEDB92348BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137D7547469E5538C952DDEA /* ContentView.swift in Sources */,
+				D2CE2CC146FC95ED079CE702 /* DesignSystem.swift in Sources */,
+				2FA4B4CC44B2DF28AAE2C082 /* GardenData.swift in Sources */,
+				8BC865829E87EC723B0FC87C /* GardenView.swift in Sources */,
+				869D16286C4A04738BA6D8DE /* JournalView.swift in Sources */,
+				DC3DAE19DB31CC30C1A7A1A6 /* PlantLibraryView.swift in Sources */,
+				D06CFD697AAD16323B623E5A /* PocketGardenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF5BBDD1C6E2723467C05F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40A1CB91257519B9F0B8A95 /* PocketGarden */;
+			targetProxy = 8FFA53BF6D050D5AD0F9D404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A894A9E8A76812AC7D33350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PocketGarden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanlu01.PocketGarden;
+				PRODUCT_NAME = PocketGarden;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C7EE556E07CAA4D9B63876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanlu01.PocketGardenUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketGarden;
+			};
+			name = Debug;
+		};
+		69E4A2900AD06E311979E82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PocketGarden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanlu01.PocketGarden;
+				PRODUCT_NAME = PocketGarden;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC5845D44D3AE21B084E58CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EABA660EF83353E59C0DC03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EBF95DBBEF738FD4AFCA2C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanlu01.PocketGardenUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketGarden;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B2ECA5B01AF05E29C38348E /* Build configuration list for PBXNativeTarget "PocketGardenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C7EE556E07CAA4D9B63876 /* Debug */,
+				EBF95DBBEF738FD4AFCA2C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2181305156BADFF02C6A329 /* Build configuration list for PBXProject "PocketGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABA660EF83353E59C0DC03F /* Debug */,
+				BC5845D44D3AE21B084E58CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EEB3CFC28F31F0409E61E124 /* Build configuration list for PBXNativeTarget "PocketGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A894A9E8A76812AC7D33350 /* Debug */,
+				69E4A2900AD06E311979E82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C2AAEE525B747B4BA4E01C2 /* Project object */;
+}
