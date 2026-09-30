@@ -14,7 +14,7 @@
 - **植物圖鑑**：瀏覽龜背芋、黃金葛、虎尾蘭的網路照片與照顧資訊，並選為自己的植物。
 - **照顧日誌**：查看照顧次數、照顧天數、最近七天的狀態與歷史紀錄。
 
-[觀看操作影片](Deliverables/final-demo.mp4) · [查看植物介紹頁](Deliverables/versions/final-detail.png)
+[觀看操作 GIF](Deliverables/final-demo.gif) · [操作影片](Deliverables/final-demo.mp4) · [查看植物介紹頁](Deliverables/versions/final-detail.png)
 
 ## 執行方式
 
@@ -45,7 +45,7 @@ xcodebuild -project PocketGarden.xcodeproj \
 | 本機圖片與網路圖片 | [原創首頁插畫](PocketGarden/Assets.xcassets/GardenHero.imageset/GardenHero.png)與圖鑑的 Unsplash 照片 |
 | 客製字體 | 隨 App 附上 DM Serif Display，並在 `UIAppFonts` 註冊 |
 | 版本截圖 | [v1](Deliverables/versions/v1-home.png)、[v2](Deliverables/versions/v2-home.png)與最終版各頁截圖 |
-| 最終版操作影片 | [final-demo.mp4](Deliverables/final-demo.mp4) |
+| 最終版操作展示 | [GIF](Deliverables/final-demo.gif)、[影片](Deliverables/final-demo.mp4) |
 
 字體授權、照片作者與來源列於[素材來源](PocketGarden/Resources/ASSET_CREDITS.md)。
 
